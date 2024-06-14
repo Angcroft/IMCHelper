@@ -84,9 +84,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 1. **Project Structure**: Ensure that the file and directory paths are correct and properly reflected in the project structure.
 2. **Compilation and Execution Instructions**: Adapt the instructions according to your specific development environment.
 3. **Screenshot**: Adding a screenshot of the application can help users better understand the interface.
-
-### Notas adicionales:
-
-1. **Estructura del Proyecto**: Asegúrate de que las rutas de los archivos y directorios sean correctas y se reflejen adecuadamente en la estructura del proyecto.
-2. **Instrucciones de Compilación y Ejecución**: Adapta las instrucciones según tu entorno de desarrollo específico.
-3. **Captura de Pantalla**: Añadir una captura de pantalla de la aplicación puede ayudar a los usuarios a entender mejor la interfaz.
