@@ -65,6 +65,13 @@ Cuando ejecutas el programa, se mostrará una ventana con campos para ingresar e
 4. Haz clic en el botón "Calculate".
 5. Verás tu IMC y su interpretación en la etiqueta de resultado.
 
+## Captura de Pantalla
+
+![example_01](https://github.com/Angcroft/IMCHelper/assets/69369902/0b991c6d-997d-4c24-9080-3eb4b829025d)
+
+![example_02](https://github.com/Angcroft/IMCHelper/assets/69369902/2133be2b-5ea9-4466-8b15-e0b704687a0d)
+
+
 ## Acerca del Uso de Este Proyecto
 Este proyecto no está destinado a contribuciones, pero eres libre de usar el código para tus propios proyectos. De acuerdo con la licencia MIT, se concede a todos la libertad de usar este código para cualquier propósito beneficioso.
 
