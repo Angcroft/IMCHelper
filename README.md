@@ -1,82 +1,89 @@
-# IMCHelper: Calculadora de Índice de Masa Corporal en Java
+# IMCHelper: Body Mass Index Calculator in Java
 
-## Introducción
+## Introduction
 
-**IMCHelper** es una aplicación gráfica escrita en Java para calcular el Índice de Masa Corporal (IMC) basado en la altura y el peso del usuario. Este proyecto fue creado para aprender sobre Java y se pone a disposición del público para aquellos que también estén interesados en este lenguaje de programación y quieran comprender parte de su sintaxis. IMCHelper es una herramienta útil para los aprendices de Java, ya que ofrece una interfaz gráfica simple y clara para realizar cálculos de IMC.
+**IMCHelper** is a graphical application written in Java to calculate the Body Mass Index (BMI) based on the user's height and weight. This project was created to learn about Java and is made available to the public for those who are also interested in this programming language and want to understand some of its syntax. IMCHelper is a useful tool for Java learners as it offers a simple and clear graphical interface for performing BMI calculations.
 
-## Características
+## Features
 
-* Ingresar peso y altura para calcular el IMC.
-* Proporcionar una interpretación del IMC según las categorías estándar.
-* Interfaz gráfica intuitiva y fácil de usar.
+* Enter weight and height to calculate BMI.
+* Provide an interpretation of the BMI according to standard categories.
+* Intuitive and user-friendly graphical interface.
 
-Para ejecutar este proyecto, necesitarás tener instalado el Kit de Desarrollo de Java (JDK) en tu sistema. El proyecto fue desarrollado utilizando la última versión disponible del JDK en el momento, por lo que debería funcionar con versiones recientes.
+To run this project, you will need to have the Java Development Kit (JDK) installed on your system. The project was developed using the latest available version of the JDK at the time, so it should work with recent versions.
 
-## Estructura del Proyecto
+## Project Structure
 
-El proyecto consta de los siguientes archivos:
+The project consists of the following files:
 
-* **Main.java**: Contiene el método principal para iniciar la aplicación.
-* **CalculatorIMC.java**: Implementa la funcionalidad de la calculadora de IMC.
-* **InterpretateIMC.java**: Proporciona la interpretación del valor de IMC calculado.
+* **Main.java**: Contains the main method to start the application.
+* **CalculatorIMC.java**: Implements the functionality of the BMI calculator.
+* **InterpretateIMC.java**: Provides the interpretation of the calculated BMI value.
 
-## Instrucciones
+## Instructions
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/TuUsuario/IMCHelper.git
 ```
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 ```sh
 cd IMCHelper
 ```
 
-3. Compila el código:
+3. Compile the code:
 ```sh
 javac Main.java CalculatorIMC.java InterpretateIMC.java
 ```
 
-4. Ejecuta la aplicación:
+4. Run the application:
 ```sh
 java -cp bin src.main.java.com.imc_helper.Main
 ```
 
-## Cómo Funciona
+## How It Works
 
-Cuando ejecutas el programa, se mostrará una ventana con campos para ingresar el peso y la altura, y un botón para calcular el IMC. Al presionar el botón, se calculará el IMC y se proporcionará una interpretación basada en las categorías estándar.
+When you run the program, a window will appear with fields to enter weight and height, and a button to calculate the BMI. Pressing the button will calculate the BMI and provide an interpretation based on standard categories.
 
-### Componentes Principales
+### Main Components
 
-**Ventana Principal**
+**Main Window**
 
-* Campos de Texto: Para ingresar el peso (en kilogramos) y la altura (en centímetros).
-* Botón Calcular: Para iniciar el cálculo del IMC.
-* Etiqueta de Resultado: Para mostrar el IMC calculado y su interpretación.
+* Text Fields: To enter weight (in kilograms) and height (in centimeters).
+* Calculate Button: To initiate the BMI calculation.
+* Result Label: To display the calculated BMI and its interpretation.
 
-### Ejemplo de Uso
+### Usage Example
 
-**Cálculo Básico de IMC**
+**Basic BMI Calculation**
 
-1. Abre la aplicación.
-2. Ingresa tu peso en el campo "Weight (kg)".
-3. Ingresa tu altura en el campo "Height (cm)".
-4. Haz clic en el botón "Calculate".
-5. Verás tu IMC y su interpretación en la etiqueta de resultado.
+1. Open the application.
+2. Enter your weight in the "Weight (kg)" field.
+3. Enter your height in the "Height (cm)" field.
+4. Click the "Calculate" button.
+5. You will see your BMI and its interpretation in the result label.
 
-## Captura de Pantalla
+## Screenshot
 
 ![example_01](https://github.com/Angcroft/IMCHelper/assets/69369902/0b991c6d-997d-4c24-9080-3eb4b829025d)
 
 ![example_02](https://github.com/Angcroft/IMCHelper/assets/69369902/2133be2b-5ea9-4466-8b15-e0b704687a0d)
 
+## About Using This Project
 
-## Acerca del Uso de Este Proyecto
-Este proyecto no está destinado a contribuciones, pero eres libre de usar el código para tus propios proyectos. De acuerdo con la licencia MIT, se concede a todos la libertad de usar este código para cualquier propósito beneficioso.
+This project is not intended for contributions, but you are free to use the code for your own projects. In accordance with the MIT license, everyone is granted the freedom to use this code for any beneficial purpose.
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+### Additional Notes:
+
+1. **Project Structure**: Ensure that the file and directory paths are correct and properly reflected in the project structure.
+2. **Compilation and Execution Instructions**: Adapt the instructions according to your specific development environment.
+3. **Screenshot**: Adding a screenshot of the application can help users better understand the interface.
 
 ### Notas adicionales:
 
